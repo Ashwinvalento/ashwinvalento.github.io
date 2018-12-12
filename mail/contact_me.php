@@ -31,7 +31,7 @@ $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl
 $mail->Port = 465 ;                                    //Set the SMTP port number - 587 for authenticated TLS
 $mail->setFrom("contact@valento.in","Portfolio Contact");     //Set who the message is to be sent from
 $mail->addReplyTo($email_address);  //Set an alternative reply-to address
-$mail->addAddress('ashwinvalento@gmail.com');               // Name is optional
+$mail->addAddress('');               // Name is optional
 
 $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 $mail->isHTML(true);                                  // Set email format to HTML
